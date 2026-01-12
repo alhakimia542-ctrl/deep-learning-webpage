@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الشبكات العصبية العميقة - التعلم العميق</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+      line-height: 1.9;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    section {
+      background: white;
+      margin: 20px auto;
+      padding: 25px;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #1e40af;
+    }
+    ul {
+      padding-right: 20px;
+    }
+    .diagram {
+      background: #eef2ff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 15px;
+      text-align: center;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>الشبكات العصبية العميقة (Deep Neural Networks)</h1>
+  <p>شرح مبسط لآلية عملها في التعلم العميق</p>
+</header>
+
+<section>
+  <h2>ما هو التعلم العميق؟</h2>
+  <p>
+    التعلم العميق (Deep Learning) هو فرع من فروع الذكاء الاصطناعي، ويعتمد على
+    الشبكات العصبية الاصطناعية ذات الطبقات المتعددة لاستخلاص الأنماط المعقدة من البيانات
+    مثل الصور، النصوص، والأصوات.
+  </p>
+</section>
+
+<section>
+  <h2>ما هي الشبكة العصبية العميقة؟</h2>
+  <p>
+    الشبكة العصبية العميقة هي نوع من الشبكات العصبية يتكون من:
+  </p>
+  <ul>
+    <li>طبقة الإدخال (Input Layer)</li>
+    <li>عدة طبقات مخفية (Hidden Layers)</li>
+    <li>طبقة الإخراج (Output Layer)</li>
+  </ul>
+  <p>
+    كلما زاد عدد الطبقات المخفية، أصبحت الشبكة "أعمق" وأكثر قدرة على تعلم العلاقات المعقدة.
+  </p>
+</section>
+
+<section>
+  <h2>آلية العمل خطوة بخطوة</h2>
+  <ol>
+    <li><strong>إدخال البيانات:</strong> يتم إدخال البيانات (مثل صورة أو نص) إلى طبقة الإدخال.</li>
+    <li><strong>الأوزان والتحيز:</strong> كل اتصال له وزن (Weight) ويضاف تحيز (Bias).</li>
+    <li><strong>دالة التفعيل:</strong> مثل ReLU أو Sigmoid لتحديد تمرير القيم.</li>
+    <li><strong>الانتشار الأمامي:</strong> تنتقل البيانات من طبقة لأخرى حتى نصل للإخراج.</li>
+    <li><strong>حساب الخطأ:</strong> مقارنة النتيجة بالقيمة الصحيحة.</li>
+    <li><strong>الانتشار العكسي:</strong> تعديل الأوزان باستخدام Backpropagation.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>تمثيل مبسط للشبكة العصبية</h2>
+  <div class="diagram">
+    طبقة الإدخال → طبقة مخفية 1 → طبقة مخفية 2 → طبقة الإخراج
+  </div>
+</section>
+
+<section>
+  <h2>أهم الاستخدامات</h2>
+  <ul>
+    <li>التعرف على الصور والوجوه</li>
+    <li>معالجة اللغة الطبيعية (NLP)</li>
+    <li>التعرف على الكلام</li>
+    <li>الأنظمة الذكية والتوصية</li>
+  </ul>
+</section>
+
+<section>
+  <h2>الخلاصة</h2>
+  <p>
+    الشبكات العصبية العميقة تحاكي طريقة عمل الدماغ البشري، وكلما زادت البيانات
+    والتدريب الجيد، زادت دقة النموذج وقدرته على التنبؤ واتخاذ القرار.
+  </p>
+</section>
+
+<footer>
+  <p>صفحة تعليمية – التعلم العميق والشبكات العصبية</p>
+</footer>
+
+</body>
+</html>
